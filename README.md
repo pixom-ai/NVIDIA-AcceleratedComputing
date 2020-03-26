@@ -169,15 +169,7 @@ The [Docker documentation](https://docs.docker.com/engine/tutorials/dockervolume
 
 ## NVIDIA DLI Online Courses and Certification
 
-The NVIDIA Accelerated Computing Teaching Kit includes access to free online DLI courses – **a value of up to $90 per person per course**. DLI training reinforces deep learning concepts presented in the Teaching Kits and teaches students how to apply those concepts to end-to-end projects. Through built-in assessments, students can earn certifications that prove subject matter competency and can be leveraged for professional career growth. Each course presents a self-paced learning environment with access to a GPU-accelerated workstation in the cloud. All you need is a web browser and Internet connection to get started.
-
-The recommended DLI course (with certification) for students learning through the Accelerated Computing Teaching Kit is **[Fundamentals of Accelerated Computing with CUDA C/C++](https://courses.nvidia.com/courses/course-v1:DLI+C-AC-01+V1/about)**.
-
-`Syllabus.pdf` suggests students take this full-day course upon near-completion of your university semester course. It also suggests shorter courses that can be used as labs throughout your university course.
-
-*To enable these or any other courses for your students, please send an email to NVDLI@nvidia.com with subject line “AC Teaching Kit Online Course Access”. You will then receive information about how to give free access to your students.*
-
-Detailed descriptions of all available DLI courses can be found at [www.nvidia.com/dli](https://www.nvidia.com/dli).
+The NVIDIA Accelerated Computing Teaching Kit includes access to free online DLI courses – **a value of up to $90 per person per course**
 
 ## About the NVIDIA Deep Learning Institute (DLI)
 The NVIDIA Deep Learning Institute (DLI) offers hands-on training for developers, datascientists, and researchers looking to solve challenging problems with deep learning and accelerated computing. Through built-in assessments, students can earn certifications thatprove subject matter competency and can be leveraged for professional career growth.
