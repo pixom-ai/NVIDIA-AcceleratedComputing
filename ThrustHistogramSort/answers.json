@@ -1,0 +1,8 @@
+{
+	"answers": [
+		"Probably: for example, a line like \\texttt{num\\_bins = device\\_vector.back() + 1} copies the last element of a device vector back to the host implicitly.",
+		"O(n log(n))",
+		"O(n)",
+		"The performance of histogram can strongly depend on whether the histogram is stored sparsely or densely, whether or not values are histogrammed spearately than keys, the specific implementation of atomics on a GPU, etc. It is difficult to provide a catch-all fast histogram implementation."
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"answers" : [
+		"The main optimization in the sample solution is for each threadblock to have a privitized histogram in shared memory. Atomic operations on shared memory are much faster than global memory.",
+		"Using shared memory requires thread syncrhonization.",
+		"Using shared memory privitization provides significant performance improvement.",
+		"One read per input element.",
+		"Each threadblock does an atomic add into every global memory bin.",
+		"One atomic operation per input element into shared memory, then NUM\\_BINS atomic operation per thread block to accumulate the results into the global bins.",
+		"There will be at least one bin with multiple threads accessing it. Those accesses will be serialized."
+	]
+}
