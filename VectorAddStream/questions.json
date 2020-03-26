@@ -1,0 +1,8 @@
+{
+	"questions": [
+        "Compared to the non-streamed vector addition, what performance gain do you get?",
+        "How did you hide the copy / kernel latency?",
+        "Can you hide two memory copy latencies at the same time?",
+        "Describe how you'd use streaming to optimize the image convolution MP."
+	]
+}

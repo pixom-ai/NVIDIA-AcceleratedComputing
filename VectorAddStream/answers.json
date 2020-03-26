@@ -1,0 +1,8 @@
+{
+	"answers": [
+		"Since the problem is bandwidth bound, you may hide some of the memory copy overhead.",
+		"You can operate on the vector in chunks, assigning each chunk to a different sream.",
+		"Yes, although the PCI-E bus is shared between invocations, the PCI-E bus has different channels for reads and writes, so reads and writes and be overlaped.",
+        "One can either operate each channel on a different stream, but because the image channels are interleaved that would not be efficient. A better solution would be to subdivide the image and operate each on a different scheme. The halos need to be either recomputed or shared between stream invocations."
+	]
+}

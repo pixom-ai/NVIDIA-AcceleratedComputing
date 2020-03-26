@@ -1,0 +1,69 @@
+{
+  "language":"CUDA",
+  "week":8,
+  "name":"Vector Addition with Streams",
+  "peer_review_score":0.0,
+  "code_score":1.0,
+  "compile_score":0.0,
+  "coding_deadline":"2015-03-28T23:00:00Z",
+  "peer_review_deadline":"2015-03-28T23:00:00Z",
+  "data":[
+    {
+      "score":0.2,
+      "input":[
+        "0/input0.raw",
+        "0/input1.raw"
+      ],
+      "output":"0/output.raw",
+      "description":"Dataset 0"
+    },
+    {
+      "score":0.2,
+      "input":[
+        "1/input0.raw",
+        "1/input1.raw"
+      ],
+      "output":"1/output.raw",
+      "description":"Dataset 1"
+    },
+    {
+      "score":0.2,
+      "input":[
+        "2/input0.raw",
+        "2/input1.raw"
+      ],
+      "output":"2/output.raw",
+      "description":"Dataset 2"
+    },
+    {
+      "score":0.2,
+      "input":[
+        "3/input0.raw",
+        "3/input1.raw"
+      ],
+      "output":"3/output.raw",
+      "description":"Dataset 3"
+    },
+    {
+      "score":0.1,
+      "input":[
+        "4/input0.raw",
+        "4/input1.raw"
+      ],
+      "output":"4/output.raw",
+      "description":"Dataset 4"
+    },
+    {
+      "score":0.1,
+      "input":[
+        "5/input0.raw",
+        "5/input1.raw"
+      ],
+      "output":"5/output.raw",
+      "description":"Dataset 5"
+    }
+  ],
+  "input_type":"vector",
+  "output_type":"vector",
+  "coursera_code_post_key":"UNKNOWN"
+}
