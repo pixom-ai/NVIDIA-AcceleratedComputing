@@ -1,0 +1,64 @@
+{
+  "language": "CUDA",
+  "week": 2,
+  "name": "Register Tiled Stencil (ECE598)",
+  "peer_review_score": 0.0,
+  "questions_score": 0,
+  "code_score": 1.0,
+  "compile_score": 0.0,
+  "coding_deadline": "2014-09-23T23:01:00Z",
+  "peer_review_deadline": "2014-12-30T23:00:00Z",
+  "data": [
+    {
+      "score": 0.1,
+      "input": [
+        "0/input.ppm"
+      ],
+      "output": "0/output.ppm",
+        "description": "Dataset 0"
+    },
+    {
+      "score": 0.1,
+      "input": [
+        "1/input.ppm"
+      ],
+      "output": "1/output.ppm",
+        "description": "Dataset 1"
+    },
+    {
+      "score": 0.2,
+      "input": [
+        "2/input.ppm"
+      ],
+      "output": "2/output.ppm",
+        "description": "Dataset 2"
+    },
+    {
+      "score": 0.2,
+      "input": [
+        "3/input.ppm"
+      ],
+      "output": "3/output.ppm",
+        "description": "Dataset 3"
+    },
+    {
+      "score": 0.2,
+      "input": [
+        "4/input.ppm"
+      ],
+      "output": "4/output.ppm",
+        "description": "Dataset 4"
+    },
+    {
+      "score": 0.2,
+      "input": [
+        "5/input.ppm"
+      ],
+      "output": "5/output.ppm",
+        "description": "Dataset 5"
+    }],
+  "input_type": "image",
+  "output_type": "image",
+  "coursera_code_post_key": "NONE",
+  "coursera_peer_review_post_key": "NONE"
+}

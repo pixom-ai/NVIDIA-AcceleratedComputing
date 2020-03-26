@@ -1,0 +1,8 @@
+{
+  "answers": [
+    "This code makes $BLOCK\\_SIZE * BLOCK\\_SIZE * ceil(size\\_x / TILE\\_SIZE) * ceil(size\\_y / tile\\_size)$ reads.",
+    "Each thread reads 7 values, and there are $BLOCK\\_SIZE * BLOCK\\_SIZE * ceil(size\\_x / TILE\\_SIZE) * ceil(size\\_y / TILE\\_SIZE)$ threads.",
+    "If you already had a working convolution code, how could you use it to implement this stencil?",
+    "This code makes fewer accesses - the equivalent convolution code would load the values where the kernel is 0 on the corners."
+  ]
+}

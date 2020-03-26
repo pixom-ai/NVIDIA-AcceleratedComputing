@@ -1,0 +1,15 @@
+{
+	"questions": [
+		"Name 3 applications of reduction.",
+		"How many floating operations are being performed in your reduction kernel? explain.",
+		"How many global memory reads are being performed by your kernel? explain.",
+		"How many global memory writes are being performed by your kernel? explain.",
+		"What is the minimum, maximum, and average number of real operations that a thread will perform? Real operations are those that directly contribute to the final reduction value.",
+		"How many times does a single thread block synchronize to reduce its portion of the array to a single value?",
+		"Describe what optimizations were performed to your kernel to achieve a performance speedup.",
+		"Describe what further optimizations can be implemented to your kernel to achieve a performance speedup.",
+		"Suppose the input is greater than 2048*6535, what modifications are needed to your kernel?",
+		"Suppose a you want to scan using a a binary operator that's not commutative, can you use a parallel reduction for that?",
+		"Is it possible to get different results from running the serial version and parallel version of reduction? explain."
+	]
+}

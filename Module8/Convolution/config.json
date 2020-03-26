@@ -1,0 +1,77 @@
+{
+	"language": "CUDA",
+  "week": 4,
+  "name": "Image Convolution",
+  "peer_review_score": 0.0,
+	"code_score": 1.0,
+  "questions_score": 0,
+	"compile_score": 0.0,
+	"coding_deadline": "2015-07-10T23:00:00Z",
+	"peer_review_deadline": "2015-07-10T23:00:00Z",
+	"keyword": [
+		{
+			"score": 0.2,
+			"data": "__shared__"
+		}
+	],
+	"data": [
+		{
+			"score": 0.2,
+			"input": [
+				"0/input0.ppm",
+				"0/input1.csv"
+			],
+			"output": "0/output.ppm",
+            "description": "Dataset 0"
+		},
+		{
+			"score": 0.2,
+			"input": [
+				"1/input0.ppm",
+				"1/input1.csv"
+			],
+			"output": "1/output.ppm",
+            "description": "Dataset 1"
+		},
+		{
+			"score": 0.1,
+			"input": [
+				"2/input0.ppm",
+				"2/input1.csv"
+			],
+			"output": "2/output.ppm",
+            "description": "Dataset 2"
+		},
+		{
+			"score": 0.1,
+			"input": [
+				"3/input0.ppm",
+				"3/input1.csv"
+			],
+			"output": "3/output.ppm",
+            "description": "Dataset 3"
+		},
+		{
+			"score": 0.1,
+			"input": [
+				"4/input0.ppm",
+				"4/input1.csv"
+			],
+			"output": "4/output.ppm",
+            "description": "Dataset 4"
+		},
+		{
+			"score": 0.1,
+			"input": [
+				"5/input0.ppm",
+				"5/input1.csv"
+			],
+			"output": "5/output.ppm",
+            "description": "Dataset 5"
+		}
+	],
+	"input_type": "image",
+	"output_type": "image",
+	"coursera_code_post_key": "NONE",
+	"coursera_peer_review_post_key": "NONE"
+}

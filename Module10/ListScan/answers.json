@@ -1,0 +1,15 @@
+{
+	"answers": [
+		"Sorting, resource allocation, and numerical integration.",
+		"Let $N$ be the input length. Reduction phase has $N-1$ adds. $N-1-log2(N)$ adds.",
+		"One per input element.",
+		"Scratch work is done in shared memory, so one per input element.",
+		"Minimum is 1 op, max is $log2(N)$. Average in reduction phase is $(N-1)/(BLOCKSIZE)$, average in post-reduction has $(N-1-log2(N))/(BLOCKSIZE)$",
+		"$log2(N)$ syncs in reduction, $log2(N)-1$ syncs in post-reduction.",
+		"A work-efficient algorithm was implemented. To reduce divergence, threads work on data that is far away instead of local.",
+		"Unroll loops when the bounds are known to reduce thread divergence.",
+		"An intial phase where each thread handles more than two inputs could be done.",
+		"Yes. The operation just must be associative.",
+		"Since floating point operations are not associative, a different answer is possible."
+	]
+}

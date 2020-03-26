@@ -1,0 +1,8 @@
+{
+	"answers": [
+		"N - one for each pair of input vector elements.",
+		"2N - one for each input vector element.",
+		"N - one for each output vector element.",
+		"Declaring device data as vectors reduces the amount of host code. The actual code that invokes the vector addition is a more functional style than the imperative CUDA kernel."
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"answers": [
+                "2.1.",
+		"1024 in X, 64 in Y and Z.",
+		"65535 * 512 = 33553920",
+		"There may not be enough data to effectively use the maximum number of threads.",
+		"A program may be limited by shared memory or registers used across all threads.",
+		"Fast read-write memory shared between all threads in a block.",
+		"Read-write memory that can be accessed by any thread.",
+		"Fast read-only memory for values that do not change during kernel execution.",
+		"The number of threads that execute in lockstep.",
+		"Double precision is supported starting with CC 1.3."
+	]
+}

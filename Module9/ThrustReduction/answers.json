@@ -1,0 +1,7 @@
+{
+	"answers" : [
+		"Determining min, max, and average of a data series.",
+		"In the example solution, this happens when hostOutput is assigned the value returned by `thrust::reduce()`;",
+		"This could be quite challenging due to thrust's relatively simple iterface. One option is to use `nvprof` or CUDA's visual profiler in combination with looking at the thrust source code."
+	]
+}

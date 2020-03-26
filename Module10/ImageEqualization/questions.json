@@ -1,0 +1,13 @@
+{
+  "questions": [
+    "For all the kernels, describe all optimizations you tried regardless of whether you committed to them or abandoned them and whether they improved or hurt performance.",
+    "For all the kernels, were there any difficulties you had with completing the optimization correctly.",
+    "For all the kernels, Which optimizations gave the most benifit.",
+    "For the histogram kernel, how many global memory reads are being performed by your kernel? explain.",
+    "For the histogram kernel, how many global memory writes are being performed by your kernel? explain.",
+    "For the histogram kernel, how many atomic operations are being performed by your kernel? explain.",
+    "For the histogram kernel, what contentions would you expect if your image is white.",
+    "For the histogram kernel, what contentions would you expect if your image is random noise and compare it to a regular image.",
+    "Further notes... can be left blank if you have nothing else to add."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"answers": [
+		"There are 3 floating point multiplications and 2 additions",
+		"In this case an interleaved representation is better since the data accesses are coallessed.",
+		"There is one global memory read per pixel (i.e. three values are being read).",
+		"The is one global memory write per pixel. We write one floating point value, since the output is a summary of the RGB values.",
+		"One can operate in texture memory.",
+		"Color conversion is a requirement to many algorithms. Some examples are image historgram, edge detection, and image effects."
+	]
+}

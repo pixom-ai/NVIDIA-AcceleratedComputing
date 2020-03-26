@@ -1,0 +1,75 @@
+{
+	"language": "CUDA",
+  "peer_review_score": 0.0,
+  "name": "List Reduction",
+  "week": 5,
+  "questions_score": 0.05,
+	"code_score": 0.95,
+	"compile_score": 0.0,
+	"coding_deadline": "2015-10-21T03:00:00Z",
+	"peer_review_deadline": "2015-10-21T03:00:00Z",
+	"keyword": [
+		{
+			"score": 0.1,
+			"data": "__shared__"
+		},
+		{
+			"score": 0.1,
+			"data": "syncthreads"
+		}
+	],
+	"data": [
+		{
+			"score": 0.2,
+			"input": [
+				"0/input0.raw"
+			],
+			"output": "0/output.raw",
+            "description": "Dataset 0"
+		},
+		{
+			"score": 0.2,
+			"input": [
+				"1/input0.raw"
+			],
+			"output": "1/output.raw",
+            "description": "Dataset 1"
+		},
+		{
+			"score": 0.1,
+			"input": [
+				"2/input0.raw"
+			],
+			"output": "2/output.raw",
+            "description": "Dataset 2"
+		},
+		{
+			"score": 0.1,
+			"input": [
+				"3/input0.raw"
+			],
+			"output": "3/output.raw",
+            "description": "Dataset 3"
+		},
+		{
+			"score": 0.1,
+			"input": [
+				"4/input0.raw"
+			],
+			"output": "4/output.raw",
+            "description": "Dataset 4"
+		},
+		{
+			"score": 0.05,
+			"input": [
+				"5/input0.raw"
+			],
+			"output": "5/output.raw",
+            "description": "Dataset 5"
+		}
+	],
+	"input_type": "vector",
+	"output_type": "vector",
+	"coursera_code_post_key": "NONE",
+	"coursera_peer_review_post_key": "NONE"
+}

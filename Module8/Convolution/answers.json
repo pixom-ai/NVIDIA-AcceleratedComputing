@@ -1,0 +1,14 @@
+{
+	"answers": [
+		"Image processing, signal+processing, stencil operations.",
+		"Each output location requires KERNEL\\_WIDTH * KERNEL\\_WIDTH, and there are width*height*channels outputs",
+		"Each thread block reads $(TILE\\_ WIDTH+MASK\\_WIDTH-1)^2$. There are $width/TILE\\_WIDTH * height/TILE\\_WIDTH$ thread blocks, for a total of $(TILE\\_WIDTH+MASK\\_WIDTH-1)^2 * height * width / TILE\\_WIDTH^2$. This includes halo elements, which are not read. Subtract $((height+MASK\\_WIDTH/2)(width+MASK\\_WIDTH/2)-height*width)$",
+		"One write per output location, or width*height*channels.",
+		"All threads do the same amount of convolution work, which is KERNEL\\_WIDTH * KERNEL\\_WIDTH",
+		"This will depend on the target machine. The CPU implementation's performance will drop with input size as the problem grows too large for the cache. The GPU implementation's FLOP rate should remain relatively constant across input sizes.",
+		"This answer may depend on the target machine. The amount of data transfer and work in convolution scale at the same rate, so for large inputs they should grow at the same rate.?",
+		"If the convolution kernel is too large, the required shared memory will be too large to have enough parallelism within a thread block. For large kernels most of the time will be spent reading overlapping kernel halos from global into shared memory, which defeats the purpose of using this algorithm.",
+		"By doing convolution in place, you may change a value that another thread needs as input, thereby causing an incorrect answer to be produced.",
+		"All zeros, except a 1 in the center."
+	]
+}

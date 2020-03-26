@@ -1,0 +1,9 @@
+{
+	"answers": [
+		"N - one for each pair of input vector elements.",
+		"2N - one for each input vector element.",
+		"N - one for each output vector element.",
+		"Split into multiple kernels to overlap data transfer and kernel execution.",
+		"Big Data analysis, statistics, FFT."
+	]
+}

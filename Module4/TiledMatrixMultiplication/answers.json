@@ -1,0 +1,11 @@
+{
+	"answers": [
+		"One dot-product per output matrix element. $2 * numACols * numCRows * numCCols$",
+		"Each thread does $2 * ceil(numACols / TILE_WIDTH)$  and there are $numCCols * numCRows$ active threads.",
+		"Only the output matrix is written. $numCRows * numCCols$",
+		"Adjusting kernel launch parameters for optimal occupancy, ",
+		"Address index translation from the global space to the shared memory space is a new place to make errors.",
+		"Each thread could do 4 or 9 or 16 adjacent elements of the matrix (thread coarsening).",
+		"Just like the input is tiled for shared memory, the input could be tiled on the host side for kernel execution.."
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"questions": [
+		"How many floating operations are being performed in your color conversion kernel? EXPLAIN.",
+		"Which format would be more efficient for color conversion: a 2D matrix where each entry is an RGB value or a 3D matrix where each slice in the Z axis representes a color. I.e. is it better to have color interleaved in this application? can you name an application where the oposite is true?",
+		"How many global memory reads are being performed by your kernel? EXPLAIN.",
+		"How many global memory writes are being performed by your kernel? EXPLAIN.",
+		"Describe what possible optimizations can be implemented to your kernel to achieve a performance speedup.",
+		"Name three applications for color conversion."
+	]
+}

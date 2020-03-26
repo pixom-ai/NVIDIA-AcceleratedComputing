@@ -1,0 +1,8 @@
+{
+	"answers": [
+		"Implemented correctly, one needs to perform one floating point addition and one division for each pixel on average",
+		"There is one global memory read per pixel. Since the image is monochromatic this corresponds to one floating point read.",
+		"There is one global memory write per pixel. Since the image is monochromatic this corresponds to one floating point read.",
+		"One can represent the image as unsigned characters. This means that each pixel occupies one byte compared to 4 required for single precision floating point."
+	]
+}

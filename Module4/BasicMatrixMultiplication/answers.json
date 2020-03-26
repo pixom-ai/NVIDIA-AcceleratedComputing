@@ -1,0 +1,9 @@
+{
+	"answers": [
+		"numCRows * numCCols dot-products = 2 * numCRows * numCCols * numACols.",
+		"numCRows * numCCols dot-products = 2 * numCRows * numCCols * numACols.",
+		"Only the output matrix is written. numCRows * numCCols.",
+		"Tiling the input matrices in shared memory to reduce the number of global memory reads..",
+		"Matrix Multiplication is present in almost every compute-intensive application. Neural Networks, Graphics, PDEs."
+	]
+}

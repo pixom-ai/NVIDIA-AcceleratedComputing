@@ -1,0 +1,14 @@
+{
+	"questions": [
+		"Name 3 applications of convolution.",
+		"How many floating operations are being performed in your convolution kernel? explain.",
+		"How many global memory reads are being performed by your kernel? explain.",
+		"How many global memory writes are being performed by your kernel? explain.",
+		"What is the minimum, maximum, and average number of `real` operations that a thread will perform? `Real` operations are those that directly contribute to the final output value.",
+		"What is the measured floating-point computation rate for the CPU and GPU kernels in this application? How do they each scale with the size of the input?",
+		"How much time is spent as an overhead cost for using the GPU for computation? Consider all code executed within your host function with the exception of the kernel itself, as overhead. How does the overhead scale with the size of the input?",
+		"What do you think happens as you increase the mask size (say to 1024) while you set the block dimensions to 16x16? What do you end up spending most of your time doing? Does that put other constraints on the way you’d write your algorithm (think of the shared/constant memory size)?",
+		"Do you have to have a separate output memory buffer? Put it in another way, why can’t you perform the convolution in place?",
+		"What is the identity mask?"
+	]
+}

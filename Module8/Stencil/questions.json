@@ -1,0 +1,8 @@
+{
+  "questions" : [
+    "How many global memory reads does your program make?",
+    "How many shared memory reads does your program make?",
+    "This stencil would need a 3x3 convolution kernel, where the center entry is -6 and the adjacent entries are 1. Corner entries would be 0.",
+    "Does your stencil make more, equal, or fewer memory accesses than the equivalent 3x3 convolution code would?"
+  ]
+}

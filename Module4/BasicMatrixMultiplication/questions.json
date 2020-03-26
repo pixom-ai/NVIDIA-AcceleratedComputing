@@ -1,0 +1,9 @@
+{
+	"questions": [
+		"How many floating operations are being performed in your matrix multiply kernel? explain.",
+		"How many global memory reads are being performed by your kernel? explain.",
+		"How many global memory writes are being performed by your kernel? explain.",
+		"Describe what possible optimizations can be implemented to your kernel to achieve a performance speedup.",
+		"Name three applications of matrix multiplication."
+	]
+}

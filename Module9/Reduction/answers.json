@@ -1,0 +1,15 @@
+{
+	"answers": [
+		"Determining min/max/average of a data series.",
+		"Input length - 1. ",
+		"numInputs. Each input value is copied to shared memory.",
+		"numInputs / (BLOCK\\_SIZE * 2). Only final outputs are written to global memory.",
+		"Minimum is 1. Max is log2(BLOCK\\_SIZE)+1. Average is (sum from i = 0 to log2(BLOCK\\_SIZE) of 2\\^i)/BLOCK\\_SIZE.",
+		"log2(BLOCK\\_SIZE)+1",
+		"Active threads are adjacent so as high a fraction of each warp is active as possible.",
+		"Use atomic operations once the reduction tree is small enough to accumulate a single final value.",
+		"The work could be further coarsened, so a thread does more than two inputs in the beginning.",
+		"To parallelize a reduction the operator must be associative, not necessarily commutative.",
+		"The order of floating-point operations in the serial and parallel version is different, so it is possible."
+	]
+}

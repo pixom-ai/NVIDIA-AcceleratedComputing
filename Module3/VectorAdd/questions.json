@@ -1,0 +1,9 @@
+{
+	"questions": [
+		"How many floating operations are being performed in your vector add kernel? EXPLAIN.",
+		"How many global memory reads are being performed by your kernel? EXPLAIN.",
+		"How many global memory writes are being performed by your kernel? EXPLAIN.",
+		"Describe what possible optimizations can be implemented to your kernel to achieve a performance speedup.",
+		"Name three applications of vector addition."
+	]
+}

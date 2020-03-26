@@ -1,0 +1,14 @@
+{
+   "week" : 1,
+   "coursera_peer_review_post_key" : "",
+   "coding_deadline" : "2015-07-01T23:00:00Z",
+   "output_type" : "text",
+   "name" : "Device Query",
+   "questions" : 0,
+   "peer_review_deadline" : "2015-07-01T23:00:00Z",
+   "language" : "cuda",
+   "code_score" : 1,
+   "peer_review_score" : 0,
+   "compile_score" : 1,
+   "coursera_code_post_key" : ""
+}

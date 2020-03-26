@@ -1,0 +1,11 @@
+{
+	"questions": [
+		"How many floating operations are being performed in your matrix multiply kernel? explain.",
+		"How many global memory reads are being performed by your kernel? explain.",
+		"How many global memory writes are being performed by your kernel? explain.",
+		"Describe what further optimizations can be implemented to your kernel to achieve a performance speedup.",
+		"Compare the implementation difficulty of this kernel compared to the previous MP. What difficulties did you have with this implementation?",
+		"Suppose you have matrices with dimensions bigger than the max thread dimensions. Sketch an algorithm that would perform matrix multiplication algorithm that would perform the multiplication in this case.",
+		"Suppose you have matrices that would not fit in global memory. Sketch an algorithm that would perform matrix multiplication algorithm that would perform the multiplication out of place."
+	]
+}

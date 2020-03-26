@@ -1,0 +1,70 @@
+{
+   "coding_deadline" : "2015-12-15T03:00:00Z",
+   "peer_review_deadline" : "2015-12-15T03:00:00Z",
+   "coursera_code_post_key" : "NONE",
+   "input_type" : "vector",
+   "code_score" : 0.95,
+   "data" : [
+      {
+         "score" : 0.2,
+         "input" : [
+            "0/input0.raw",
+            "0/input1.raw"
+         ],
+         "output" : "0/output.raw",
+         "description" : "Dataset 0"
+      },
+      {
+         "description" : "Dataset 1",
+         "output" : "1/output.raw",
+         "score" : 0.2,
+         "input" : [
+            "1/input0.raw",
+            "1/input1.raw"
+         ]
+      },
+      {
+         "description" : "Dataset 2",
+         "output" : "2/output.raw",
+         "score" : 0.2,
+         "input" : [
+            "2/input0.raw",
+            "2/input1.raw"
+         ]
+      },
+      {
+         "description" : "Dataset 3",
+         "output" : "3/output.raw",
+         "score" : 0.15,
+         "input" : [
+            "3/input0.raw",
+            "3/input1.raw"
+         ]
+      },
+      {
+         "score" : 0.1,
+         "input" : [
+            "4/input0.raw",
+            "4/input1.raw"
+         ],
+         "description" : "Dataset 4",
+         "output" : "4/output.raw"
+      },
+      {
+         "input" : [
+            "5/input0.raw",
+            "5/input1.raw"
+         ],
+         "score" : 0.1,
+         "description" : "Dataset 5",
+         "output" : "5/output.raw"
+      }
+   ],
+   "compile_score" : 0.2,
+   "coursera_peer_review_post_key" : "NONE",
+   "output_type" : "vector",
+   "name" : "Thrust Vector Addition",
+   "language" : "CUDA",
+   "week" : 2,
+   "peer_review_score" : 0.05
+}

@@ -1,0 +1,69 @@
+{
+  "language": "CUDA",
+  "week": 7,
+  "name": "Histogram",
+  "peer_review_score": 0.0,
+  "code_score": 0.95,
+  "compile_score": 0.0,
+  "coding_deadline": "2015-11-05T03:00:00Z",
+  "peer_review_deadline": "2015-11-05T03:00:00Z",
+  "keyword": [
+    {
+      "score": 0.3,
+      "data": "atomicAdd"
+    }
+  ],
+  "data": [
+    {
+      "score": 0.15,
+      "input": [
+        "0/input.ppm"
+      ],
+      "output": "0/output.ppm",
+      "description": "Dataset 0"
+    },
+    {
+      "score": 0.1,
+      "input": [
+        "1/input.ppm"
+      ],
+      "output": "1/output.ppm",
+      "description": "Dataset 1"
+    },
+    {
+      "score": 0.1,
+      "input": [
+        "2/input.ppm"
+      ],
+      "output": "2/output.ppm",
+      "description": "Dataset 2"
+    },
+    {
+      "score": 0.1,
+      "input": [
+        "3/input.ppm"
+      ],
+      "output": "3/output.ppm",
+      "description": "Dataset 3"
+    },
+    {
+      "score": 0.1,
+      "input": [
+        "4/input.ppm"
+      ],
+      "output": "4/output.ppm",
+      "description": "Dataset 4"
+    },
+    {
+      "score": 0.1,
+      "input": [
+        "5/input.ppm"
+      ],
+      "output": "5/output.ppm",
+      "description": "Dataset 5"
+    }
+  ],
+  "input_type": "image",
+  "output_type": "image",
+  "coursera_code_post_key": "EiCVsTK9"
+}

@@ -1,0 +1,8 @@
+{
+	"questions": [
+		"How many floating operations are being performed in your vector add kernel? EXPLAIN.",
+		"How many global memory reads are being performed by your kernel? EXPLAIN.",
+		"How many global memory writes are being performed by your kernel? EXPLAIN.",
+		"In what ways did Thrust make developing a functional vector addition code easier or harder?"
+	]
+}
