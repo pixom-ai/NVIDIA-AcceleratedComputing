@@ -1,0 +1,64 @@
+# This references a standard debian container from the
+# Docker Hub https://registry.hub.docker.com/_/debian/
+# Read more about containers on our dev center
+# http://devcenter.wercker.com/docs/containers/index.html
+# Steps make up the actions in your pipeline
+# Read more about steps on our dev center:
+# http://devcenter.wercker.com/docs/steps/index.html
+box: webgpu/pandoc
+build:
+  steps:
+    - script:
+      name: install git
+      code: |
+        apt-get update
+        apt-get install -y git
+    - script:
+      name: initialize git submodules
+      code: |
+        git submodule update --init --recursive
+    - script:
+      name: install golang
+      code: |
+        version="1.6"
+        sudo apt-get update
+        sudo apt-get install -y bzr mercurial wget git
+        wget http://golang.org/dl/go${version}.linux-amd64.tar.gz
+        sudo tar -C /usr/local -xzf go${version}.linux-amd64.tar.gz
+        echo "export PATH=$PATH:/usr/local/go/bin" | sudo tee -a /etc/profile
+        rm go${version}.linux-amd64.tar.gz
+        # Set GOPATH
+        export GOPATH="$HOME/go"
+        echo 'export GOPATH="$HOME/go"' | sudo tee -a /etc/profile
+        # Adds go bin directory to path so tools
+        # and buils are available on the commandline
+        export PATH="$PATH:$GOPATH/bin"
+        echo 'export PATH="$PATH:$GOPATH/bin"' | sudo tee -a /etc/profile
+        # Make actual go workspace dir structure
+        mkdir -p "$HOME/go/{src,pkg,bin}"
+
+    - script:
+      name: install ssh key
+      code: |
+        mkdir -p ~/.ssh
+        echo "$SSH_KEY" > ~/.ssh/id_rsa
+        git config --global url."git@gitlab.com:".insteadOf "https://gitlab.com"
+    - script:
+      name: build documents
+      code: |
+        go get gitlab.com/abduld/wgx-pandoc
+        mkdir build
+        wgx-pandoc .
+    - s3sync:
+      key-id: $AWS_ACCESS_KEY_ID
+      key-secret: $AWS_SECRET_ACCESS_KEY
+      bucket-url: $AWS_BUCKET_URL
+      source-dir: build
+      opts: --acl-private
+  after-steps:
+    - wantedly/pretty-slack-notify:
+        webhook_url: $SLACK_WEBHOOK_URL
+    - script:
+      name: delete ssh key
+      code: |
+        rm ~/.ssh/id_rsa

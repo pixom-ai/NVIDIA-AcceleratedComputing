@@ -1,0 +1,6 @@
+{
+	"answers" : [
+		"CUDA's kernel<<<>>> corresponds to OpenCL's clGetPlatformIDs(), clGetDeviceIDs(), clCreateContext(), clCreateCommandQueue(), clCreateProgramWithSource(), clBuildProgram(), clCreateKernel(), clSetKernekArg(), clEnqueuNDRangeKernel(). CUDA's cudaMalloc() corresponds to OpenCL's clCreateBuffer(). CUDA's cudaMemcpy() corresponds to OpenCL's clEnqueueWriteBuffer() / clEnqueueReadBuffer(). CUDA's cudaFree() corresponds to OpenCL's clReleaseMemObject()",
+		"The OpenCL model compiles the device code at runtime, so it could come from anywhere. The OpenCL API directly exposes this capability. Lower-level CUDA APIs do something similar."
+	]
+}

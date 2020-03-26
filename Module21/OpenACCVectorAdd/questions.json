@@ -1,0 +1,6 @@
+{
+	"questions": [
+		"Compare the implementation difficulty of this kernel compared to the CUDA implementation. What difficulties did you have with this implementation?",
+    "What features are available to you in CUDA or OpenCL that made programming in either simpler?"
+  ]
+}

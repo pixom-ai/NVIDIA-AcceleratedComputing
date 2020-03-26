@@ -1,0 +1,7 @@
+Follow these steps to access and activate your PGI software:
+
+1. Obtain the software by downloading [PGI Community Edition](http://www.pgroup.com/products/community.htm?utm_source=teaching_kit_accel_comp&utm_medium=web_link&utm_content=faculty), which is currently PGI 2017 version 17.4 and includes a license key good through April 30, 2018. Please encourage students to download PGI Community Edition directly for use on their own systems from the link [here](http://www.pgroup.com/products/community.htm?utm_source=teaching_kit_accel_comp&utm_medium=web_link&utm_content=student). 
+2. Install the software as directed in the x86 [PGI Installation Guide](http://www.pgroup.com/doc/pgiinstall.pdf?utm_source=teaching_kit_accel_comp&utm_medium=web_link) or OpenPOWER [PGI Installation and Release Notes](http://www.pgroup.com/doc/pgirn-openpower.pdf?utm_source=teaching_kit_accel_comp&utm_medium=web_link)
+3. You may install the software and license keys on systems used by you or your students for education purposes, including on head-nodes of clusters. 
+4. Re-distribution of the software or license keys is prohibited except as provided herein.
+5. By using the software, you agree to be bound by the [PGI End-User License Agreement](http://www.pgroup.com/doc/LICENSE.txt).

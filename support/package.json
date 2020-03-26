@@ -1,0 +1,16 @@
+{
+  "name": "support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "n",
+  "dependencies": {
+    "glob": "^7.0.3",
+    "tidy-markdown": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "NCSA"
+}

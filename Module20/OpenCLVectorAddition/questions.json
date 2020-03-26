@@ -1,0 +1,6 @@
+{
+	"questions" : [
+		"If you have completed some CUDA labs, try to list which CUDA API calls correspond to which sets of OpenCL API calls.",
+		"Why is the OpenCL kernel stored as a string in the source file instead of directly in the source file like the host code?"
+	]
+}

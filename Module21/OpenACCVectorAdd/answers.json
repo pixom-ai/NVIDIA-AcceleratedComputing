@@ -1,0 +1,6 @@
+{
+	"answers": [
+		"CUDA programming requires a lot of boilerplate code and runtime calls that are totally removed when using OpenACC.",
+    "Answers may vary, but for vector add there is no debate that OpenACC is simpler than CUDA or OpenCL."
+  ]
+}
